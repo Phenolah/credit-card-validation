@@ -1,4 +1,4 @@
-function validateCreditCard(cardNumber) {
+function creditCardValidation(cardNumber) {
     
     const visaPattern = /^4[0-9]{12}(?:[0-9]{3})?$/; 
     const mastercardPattern = /^5[1-5][0-9]{14}$/;
@@ -16,4 +16,4 @@ function validateCreditCard(cardNumber) {
 }
 
 const cardNumber = "4111111111111111"; 
-console.log(validateCreditCard(cardNumber)); 
+console.log(creditCardValidation(cardNumber)); 
